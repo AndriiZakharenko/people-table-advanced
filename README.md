@@ -1,12 +1,5 @@
 # React People Table (Advanced) - Filterging and Sorting
 
-> Here is [the working example](https://mate-academy.github.io/react_people-table-advanced/)
-
-> Sorting and filtering tests are not implemented yet
-
-Using code from the [React People Table](https://github.com/mate-academy/react_people-table-basics#react-people-table)
-implement the ability to filter and sort people in the table.
-
 1. All the filters and sort params should be saved as URL Search Params, so you could share the link to show exactly what you see.
 1. Keep search params when navigating within the `People` page (when selecting a person or clicking the `People` link).
 1. The sidebar with the filters should appear only when people are loaded.
@@ -22,10 +15,7 @@ implement the ability to filter and sort people in the table.
     - use `sort` search param to save sort field;
     - add `order=desc` (short for `descending`) if sorted in reversed order;
     - if sorting is disabled there should not be `sort` and `order` search params;
+  
+## Demo Links
 
-## Instructions
-- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
-- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
-- Use the [React TypeScript cheat sheet](https://mate-academy.github.io/fe-program/js/extra/react-typescript).
-- Open one more terminal and run tests with `npm test` to ensure your solution is correct.
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_people-table-advanced/) and add it to the PR description.
+- [DEMO LINK](https://AndriiZakharenko.github.io/react_people-table-advanced/)
